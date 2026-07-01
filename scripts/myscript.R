@@ -8,3 +8,7 @@ ggplot(complete_old, aes(x = hindfoot_length, y = weight))+
 # Make a comment
 ggplot(complete_old, aes(x = hindfoot_length, y = weight, color = species))+
   geom_point()
+
+# Make another comment
+ggplot(complete_old, aes(x = hindfoot_length, y = weight, color = species))+
+  geom_jitter()
